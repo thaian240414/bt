@@ -38,7 +38,9 @@ Text(box_nut, "Đăng nhập / Đăng ký", grid=[0,0,2,1], size=14, align="top"
 Text(box_nut, "Tên đăng nhập:", grid=[0,1], align="right")
 txt_ten_dang_nhap = TextBox(box_nut, width=25, grid=[1,1])
 Text(box_nut, "Mật khẩu:", grid=[0,2], align="right")
-txt_mat_khau = TextBox(box_nut, width=25, hide_text=True, grid=[1,2])
+
+txt_mat_khau = TextBox(box_nut, width=25, grid=[1,2])
+
 PushButton(box_nut, text="Đăng nhập", grid=[0,3], width=12, command=dang_nhap)
 PushButton(box_nut, text="Đăng ký", grid=[1,3], width=12, command=dang_ky)
 
